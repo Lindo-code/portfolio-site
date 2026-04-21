@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lindocode.com/sitemap.xml
+Sitemap: https://portfolio.lindocode.com/sitemap.xml
