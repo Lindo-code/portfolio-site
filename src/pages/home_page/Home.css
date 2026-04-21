@@ -1,0 +1,265 @@
+#preview,
+#tech_stack,
+#projects,
+#github_activity,
+#contact_form {
+  scroll-margin-top: 50px;
+}
+
+#testimonials {
+  scroll-margin-top: 200px;
+}
+
+.col-vs-row {
+  background-color: #e3857a;
+  color: #f1dba7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+}
+
+.app-container {
+  padding-top: 30px;
+  overflow-x: hidden;
+  background: #050505;
+}
+
+.video-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-size {
+  width: 70%;
+}
+
+.spacing-div {
+  padding: 12px;
+}
+
+/* HOME SECTION WRAPPERS */
+.home-tech-shell {
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  background-color: #050505;
+}
+
+.home-github-section {
+  background-color: #b47c2e;
+  color: #f1dba7;
+  padding: 50px;
+}
+
+.home-github-intro {
+  width: 100%;
+}
+
+.home-github-divider {
+  border: none;
+  height: 3px;
+  background-color: red;
+  margin: 10px 50% 10px 0;
+  width: 10rem;
+  display: block;
+}
+
+.home-testimonials-section {
+  background-color: #b47c2e;
+  color: #f1dba7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px 10px 20px;
+  margin-top: -5px;
+}
+
+.home-email-intro {
+  background-color: #b47c2e;
+  color: #f1dba7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+
+.home-email-intro h2 {
+  margin: 0;
+}
+
+/* HALF-PILL container (holds placeholder + image) */
+.hero-halfpill {
+  position: absolute;
+  z-index: -1;
+  border-radius: 9999px 0 0 9999px;
+  overflow: hidden;
+  background: rgba(17, 17, 17, 0.35);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+  transition:
+    background-color 420ms ease,
+    box-shadow 420ms ease;
+  border-right: 10px solid red;
+}
+
+.hero-halfpill-placeholder {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0.65;
+  background: rgba(17, 17, 17, 0.65);
+  overflow: hidden;
+  backdrop-filter: blur(1px);
+}
+
+.hero-halfpill-placeholder.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.12) 50%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  transform: translateX(-100%);
+  animation: heroShimmer 1.6s ease-in-out infinite;
+}
+
+.hero-halfpill-image {
+  position: absolute;
+  top: 6%;
+  bottom: 6%;
+  left: 5%;
+  right: 12%;
+  border-radius: 9999px 0 0 9999px;
+  opacity: 0;
+  transform: translateX(22px);
+  filter: blur(2px);
+  transition:
+    opacity 650ms ease,
+    transform 750ms ease,
+    filter 700ms ease;
+  will-change: opacity, transform, filter;
+}
+
+.hero-halfpill.is-loaded .hero-halfpill-image {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+.hero-halfpill.is-loaded {
+  background: rgba(0, 0, 0, 0.95);
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.hero-halfpill.is-loaded .hero-halfpill-placeholder {
+  opacity: 0;
+  transition: opacity 350ms ease;
+}
+
+@keyframes heroShimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media screen and (min-width: 800px) and (orientation: portrait) {
+  .video-div {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 800px) and (orientation: landscape) {
+  .video-div {
+    flex-direction: row;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .video-size {
+    width: 60%;
+  }
+
+  .spacing-div {
+    padding: 1px;
+  }
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .col-vs-row {
+    flex-direction: column;
+    padding: 0 40px;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .video-size {
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 480px) and (orientation: landscape) {
+  .video-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .video-size {
+    width: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  .home-tech-shell {
+    padding: 0 1rem;
+  }
+
+  .home-github-section {
+    padding: 38px 22px;
+  }
+
+  .home-github-divider {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-testimonials-section,
+  .home-email-intro {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-tech-shell {
+    padding: 0 1rem;
+  }
+
+  .home-github-section {
+    padding: 32px 16px;
+  }
+
+  .home-github-divider {
+    width: 7rem;
+  }
+
+  .home-email-intro {
+    border-bottom-left-radius: 42% 18%;
+    border-bottom-right-radius: 42% 18%;
+  }
+}

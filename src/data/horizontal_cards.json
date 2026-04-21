@@ -1,0 +1,48 @@
+[
+  [
+    {
+      "title": "Innovative Solutions",
+      "semiTitle": "Real-world Impact",
+      "description": "Smart, forward-thinking tools to solve real-world challenges.",
+      "backgroundColor": "#D62F4D",
+      "backgroundImg": "",
+      "link": "/lazy-appz#web_apps",
+      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/vario-2.webp"
+    },
+    {
+      "title": "Data Insights",
+      "semiTitle": "Clarity From Complexity",
+      "description": "Storing complex data for clear, strategic decisions, or easy access.",
+      "backgroundColor": "black",
+      "backgroundImg": "",
+      "link": "/lazy-appz#web_apps",
+      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/conference-4.webp"
+    },
+    {
+      "title": "Creative Design",
+      "semiTitle": "Where Aesthetics Meet Usability",
+      "description": "Intuitive, elegant interfaces that turn ideas into experiences.",
+      "backgroundColor": "#D62F4D",
+      "backgroundImg": "",
+      "link": "/lazy-appz#web_apps",
+      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/jambuddy-2.webp"
+    }
+  ],
+  [
+    {
+      "title": "Project Alpha",
+      "description": "Innovative solution",
+      "image": "/assets/images/temp-latest/sdrow.webp"
+    },
+    {
+      "title": "Creative Design",
+      "description": "Beautiful interfaces that enhance",
+      "image": "/assets/images/temp-latest/lazy_appz.webp"
+    },
+    {
+      "title": "Data Insights",
+      "description": "Transforming raw data into actionable business intelligence.",
+      "image": "/assets/images/temp-latest/portfolio.webp"
+    }
+  ]
+]

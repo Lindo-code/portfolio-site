@@ -1,0 +1,37 @@
+{
+  "death_to_pride": {
+    "id": 1,
+    "genre": "FICTION",
+    "title": "Death To Pride",
+    "description": "A full-featured online shopping platform with payment integration and inventory management.",
+    "imageUrl": "/assets/images/temp-latest/stand_death_to.webp"
+  },
+  "black_and_white": {
+    "id": 2,
+    "title": "Black & White",
+    "genre": "FICTION",
+    "description": "Productivity application for organizing tasks with team collaboration features.",
+    "imageUrl": "/assets/images/temp-latest/stand_black_and.webp"
+  },
+  "shadows": {
+    "id": 3,
+    "title": "Shadows: spirits, ghosts & shades",
+    "genre": "SUPERNATURAL",
+    "description": "A full-featured online shopping platform with payment integration and inventory management.",
+    "imageUrl": "/assets/images/temp-latest/stand_shadow_.webp"
+  },
+  "land_of_divided_nations": {
+    "id": 4,
+    "title": "Land Of Divided Nations",
+    "genre": "FANTASY",
+    "description": "Productivity application for organizing tasks with team collaboration features.",
+    "imageUrl": "/assets/images/temp-latest/stand_land_of.webp"
+  },
+  "my_final_project": {
+    "id": 5,
+    "title": "My Final Project",
+    "genre": "FICTION",
+    "description": "Productivity application for organizing tasks with team collaboration features.",
+    "imageUrl": "/assets/images/temp-latest/stand_my_final.webp"
+  }
+}

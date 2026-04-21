@@ -1,0 +1,22 @@
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+  border-left: 4px solid #667eea;
+  padding-left: 15px;
+}
+
+.page-container ul {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.page-container li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
