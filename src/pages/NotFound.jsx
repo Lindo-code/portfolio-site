@@ -13,10 +13,8 @@ export default function NotFound() {
           content="The page you are looking for does not exist. Explore Lindocode Digital's portfolio and projects."
         />
 
-        {/* Prevent indexing */}
         <meta name="robots" content="noindex, nofollow" />
 
-        {/* Open Graph */}
         <meta property="og:title" content="404 — Page Not Found" />
         <meta
           property="og:description"
@@ -24,7 +22,6 @@ export default function NotFound() {
         />
         <meta property="og:type" content="website" />
 
-        {/* Optional canonical */}
         <link rel="canonical" href="https://portfolio.lindocode.com/404" />
       </Helmet>
 
