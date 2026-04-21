@@ -60,7 +60,7 @@ export default function NotFound() {
         <h1
           className="press-start-font"
           style={{
-            fontSize: "clamp(2rem, 6vw, 4rem)",
+            fontSize: "clamp(1rem, 5vw, 3rem)",
             lineHeight: 1,
             marginBottom: "1rem",
           }}

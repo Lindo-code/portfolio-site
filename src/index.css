@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: "Press Start 2P";
+  font-family: "PressStart";
   src: url("/fonts/PressStart2P-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -41,6 +41,6 @@ body {
 }
 
 .press-start-font {
-  font-family: "Press Start", monospace;
+  font-family: "PressStart", monospace !important;
   letter-spacing: 0.05em;
 }
