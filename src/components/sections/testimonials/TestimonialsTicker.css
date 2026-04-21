@@ -78,12 +78,12 @@
 
 .testimonial-ticker-fade--left {
   left: 0;
-  background: linear-gradient(to right, #b47c2e, rgba(5, 5, 5, 0));
+  background: linear-gradient(to right, transparent, rgba(5, 5, 5, 0));
 }
 
 .testimonial-ticker-fade--right {
   right: 0;
-  background: linear-gradient(to left, #b47c2e, rgba(5, 5, 5, 0));
+  background: linear-gradient(to left, transparent, rgba(5, 5, 5, 0));
 }
 
 /* CARD */
