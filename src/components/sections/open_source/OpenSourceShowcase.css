@@ -1,0 +1,111 @@
+.oss-section {
+  padding: clamp(4rem, 7vw, 7rem) 0;
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(255, 59, 59, 0.08),
+      transparent 25%
+    ),
+    #050505;
+  color: white;
+}
+
+/* HEADER */
+.oss-header {
+  max-width: 700px;
+  margin-bottom: 2.5rem;
+}
+
+.oss-kicker {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.oss-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  margin: 0.5rem 0;
+  color: #f1dba7;
+}
+
+.oss-text {
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+/* METRICS */
+.oss-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.oss-card {
+  padding: 1.2rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.oss-card-label {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+.oss-card-value {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 0.3rem;
+}
+
+/* ACTIVITY */
+.oss-activity h3 {
+  margin-bottom: 1rem;
+}
+
+.oss-activity-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.oss-activity-item {
+  padding: 1rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.oss-activity-repo {
+  font-weight: 600;
+  margin: 0;
+}
+
+.oss-activity-meta {
+  font-size: 0.85rem;
+  opacity: 0.6;
+  margin-top: 0.3rem;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .oss-section {
+    padding: 3rem 0;
+  }
+
+  .oss-title {
+    font-size: 2rem;
+  }
+}

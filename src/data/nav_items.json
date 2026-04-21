@@ -1,0 +1,60 @@
+{
+  "portfolio": {
+    "links": [
+      "#preview",
+      "#tech_stack",
+      "#github_activity",
+      "#projects",
+      "#testimonials",
+      "#contact_form"
+    ],
+    "titles": [
+      "Intro",
+      "Tech Stack",
+      "Reviews & Activity",
+      "Projects",
+      "Testimonials",
+      "Contact"
+    ]
+  },
+  "lazy-appz": {
+    "links": [
+      "#why-us",
+      "#process",
+      "#technologies",
+      "#stats",
+      "#web_apps",
+      "#web_games",
+      "#mobile_apps",
+      "#contact_form"
+    ],
+    "titles": [
+      "About Us",
+      "Our Process",
+      "Tech Stack",
+      "Stats",
+      "Web Apps",
+      "Games",
+      "Mobile Apps",
+      "Contact"
+    ]
+  },
+  "sdrow-vieli": {
+    "links": [
+      "/",
+      "#preview",
+      "#short_stories",
+      "#thoughts",
+      "#in_progress",
+      "#contact"
+    ],
+    "titles": [
+      "Home",
+      "Preview",
+      "Short Stories",
+      "Thoughts",
+      "In Progress",
+      "Contact"
+    ]
+  }
+}

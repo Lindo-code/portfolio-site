@@ -1,0 +1,29 @@
+{
+  "tech": [
+    "assets/images/icons/docker-logo-svgrepo-com.svg",
+    "assets/images/icons/html-5-svgrepo-com.svg",
+    "assets/images/icons/css-3-svgrepo-com.svg",
+    "assets/images/icons/javascript-svgrepo-com.svg",
+    "assets/images/icons/nodejs-svgrepo-com.svg",
+    "assets/images/icons/git-svgrepo-com.svg",
+    "assets/images/icons/react-svgrepo-com.svg",
+    "assets/images/icons/expo-svgrepo-com.svg",
+    "assets/images/icons/figma-svgrepo-com.svg",
+    "assets/images/icons/aws-svgrepo-com.svg",
+    "assets/images/icons/docker-logo-svgrepo-com.svg",
+    "assets/images/icons/html-5-svgrepo-com.svg",
+    "assets/images/icons/css-3-svgrepo-com.svg",
+    "assets/images/icons/javascript-svgrepo-com.svg",
+    "assets/images/icons/nodejs-svgrepo-com.svg",
+    "assets/images/icons/git-svgrepo-com.svg",
+    "assets/images/icons/react-svgrepo-com.svg",
+    "assets/images/icons/expo-svgrepo-com.svg",
+    "assets/images/icons/figma-svgrepo-com.svg"
+  ],
+  "main": {
+    "rec": "assets/images/icons/more/rec-dot-svgrepo-com.svg",
+    "notes": "assets/images/icons/more/writing-notes-svgrepo-com.svg",
+    "writing": "assets/images/icons/more/writing-svgrepo-com.svg",
+    "pencil": "assets/images/icons/more/writing-notes-svgrepo-com.svg"
+  }
+}

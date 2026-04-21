@@ -1,0 +1,29 @@
+{
+  "lazyAppz": {
+    "seo": {
+      "title": "Lazy Appz / Lazy Appzzz | App Development",
+      "description": "Building practical web and mobile applications that simplify workflows, boost productivity, and eliminate unnecessary complexity.",
+      "keywords": "lazy appz, productivity apps, workflow automation, web applications, mobile apps, custom app development",
+      "canonical": "https://lindocode.com/lazy-appz",
+      "og_image": "https://lindocode.com/assets/lazy-appz-preview.webp"
+    }
+  },
+  "portfolio": {
+    "seo": {
+      "title": "Lindo Matabane | Full Stack Developer Portfolio",
+      "description": "Showcasing real-world web and mobile applications built with React, Node.js, and modern cloud technologies, focused on performance, usability, and scalability.",
+      "keywords": "full stack developer, portfolio, react projects, node.js applications, web development projects, mobile app development, fullstack developer",
+      "canonical": "https://lindocode.com/portfolio",
+      "og_image": "https://lindocode.com/assets/lazy-appz-preview.webp"
+    }
+  },
+  "sdrowVieli": {
+    "seo": {
+      "title": "Sdrow Vieli | Writer",
+      "description": "Exploring original stories and experimental narratives blending fiction and human experience through reflective, imaginative storytelling.",
+      "keywords": "creative writing, portfolio, short stories, experimental fiction, storytelling projects, digital narratives",
+      "canonical": "https://lindocode.com/sdrow-vieli",
+      "og_image": "https://lindocode.com/assets/sdrow-vieli-preview.webp"
+    }
+  }
+}

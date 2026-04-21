@@ -1,0 +1,24 @@
+{
+  "portfolio": {
+    "titleText": ["Full Stack", "Web &", "Mobile Developer"],
+    "bodyText": [
+      "Hey, I'm Lindo! I like building cool stuff that works - web, mobile, whatever gets the job done.",
+      "I’ve worked with teams, led some, learned a ton, and taught a bit too.",
+      "So, let’s make the internet a little more awesome."
+    ]
+  },
+  "lazyAppz": {
+    "titleText": ["Apps That Work, ", "So You Don't Have to."],
+    "bodyText": [
+      "Technology should make everyday tasks simpler, not more complicated.",
+      "Explore what we can do for you."
+    ]
+  },
+  "sdrowVieli": {
+    "titleText": ["Even silence...", "Has a story."],
+    "bodyText": [
+      "Whether fact or fiction, stories offer a glimpse into someone’s mind.",
+      "- Sdrow Vieli ©"
+    ]
+  }
+}

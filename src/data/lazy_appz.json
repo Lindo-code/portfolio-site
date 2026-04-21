@@ -1,0 +1,79 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "Project Alpha",
+      "subtitle": "Revolutionary Web App",
+      "description": "A cutting-edge web application that transforms how users interact with data.",
+      "details": "Built with React and modern web technologies",
+      "statusText": "LIVE",
+      "statusColor": "#ff4757",
+      "image": "https://via.placeholder.com/600x400",
+      "githubLink": "https://github.com",
+      "link": "https://example.com",
+      "cardId": 1,
+      "stats": [
+        { "value": "10K+", "label": "Users" },
+        { "value": "99.9%", "label": "Uptime" },
+        { "value": "24/7", "label": "Support" },
+        { "value": "4.8", "label": "Rating" }
+      ],
+      "mockupImages": [
+        {
+          "src": "https://via.placeholder.com/400x300",
+          "alt": "Mockup 1",
+          "caption": "Dashboard view with real-time analytics"
+        },
+        {
+          "src": "https://via.placeholder.com/400x300",
+          "alt": "Mockup 2",
+          "caption": "User profile management interface"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "React",
+          "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 13c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5z",
+          "color": "#61DAFB",
+          "hoverColor": "#00D8FF",
+          "url": "https://reactjs.org"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Project Beta",
+      "subtitle": "Mobile-First Experience",
+      "description": "A mobile-optimized platform delivering exceptional user experiences.",
+      "details": "Responsive design with smooth animations",
+      "statusText": "BETA",
+      "statusColor": "#ffa502",
+      "image": "https://via.placeholder.com/600x400",
+      "githubLink": "https://github.com",
+      "cardId": 2,
+      "button": true,
+      "buttonText": "Join Beta",
+      "stats": [
+        { "value": "5K+", "label": "Downloads" },
+        { "value": "4.9", "label": "Rating" },
+        { "value": "50+", "label": "Features" }
+      ],
+      "mockupImages": [
+        {
+          "src": "https://via.placeholder.com/400x300",
+          "alt": "Mobile Mockup",
+          "caption": "Mobile app interface"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "React Native",
+          "path": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 4c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm0 13c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5z",
+          "color": "#61DAFB",
+          "hoverColor": "#00D8FF",
+          "url": "https://reactnative.dev"
+        }
+      ]
+    }
+  ]
+}

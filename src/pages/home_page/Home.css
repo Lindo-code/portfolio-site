@@ -1,0 +1,185 @@
+#preview,
+#tech_stack,
+#projects,
+#github_activity,
+#contact_form {
+  scroll-margin-top: 50px;
+}
+
+#testimonials {
+  scroll-margin-top: 200px;
+}
+
+.col-vs-row {
+  background-color: #e3857a;
+  color: #f1dba7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+}
+
+.app-container {
+  padding-top: 30px;
+  overflow-x: hidden;
+}
+
+.video-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-size {
+  width: 70%;
+}
+
+.spacing-div {
+  padding: "12px";
+}
+
+/* HALF-PILL container (holds placeholder + image) */
+.hero-halfpill {
+  position: absolute;
+  z-index: -1;
+  border-radius: 9999px 0 0 9999px;
+  overflow: hidden;
+
+  /* initial (loading state) */
+  background: rgba(17, 17, 17, 0.35);
+
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+
+  /* smooth material shift */
+  transition:
+    background-color 420ms ease,
+    box-shadow 420ms ease;
+
+  border-right: 10px solid red;
+}
+
+/* Placeholder (fills container) */
+.hero-halfpill-placeholder {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0.65;
+  background: rgba(17, 17, 17, 0.65);
+  overflow: hidden;
+  backdrop-filter: blur(1px);
+}
+
+/* Softer shimmer */
+.hero-halfpill-placeholder.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.12) 50%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  transform: translateX(-100%);
+  animation: heroShimmer 1.6s ease-in-out infinite;
+}
+
+/* Image layer starts hidden */
+.hero-halfpill-image {
+  position: absolute;
+
+  /* asymmetric padding */
+  top: 6%;
+  bottom: 6%;
+  left: 5%;
+  right: 12%;
+
+  border-radius: 9999px 0 0 9999px;
+
+  opacity: 0;
+  transform: translateX(22px);
+  filter: blur(2px);
+
+  transition:
+    opacity 650ms ease,
+    transform 750ms ease,
+    filter 700ms ease;
+
+  will-change: opacity, transform, filter;
+}
+
+/* When loaded: image materializes */
+.hero-halfpill.is-loaded .hero-halfpill-image {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+.hero-halfpill.is-loaded {
+  background: rgba(0, 0, 0, 0.95); /* true black */
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+/* When loaded: fade out placeholder */
+.hero-halfpill.is-loaded .hero-halfpill-placeholder {
+  opacity: 0;
+  transition: opacity 350ms ease;
+}
+
+@keyframes heroShimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media screen and (min-width: 800px) and (orientation: portrait) {
+  .video-div {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 800px) and (orientation: landscape) {
+  .video-div {
+    flex-direction: row;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .video-size {
+    width: 60%;
+  }
+
+  .spacing-div {
+    padding: "1px";
+  }
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .col-vs-row {
+    flex-direction: column;
+    padding: 0 40px;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .video-size {
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 480px) and (orientation: landscape) {
+  .video-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .video-size {
+    width: 60%;
+  }
+}
