@@ -270,7 +270,7 @@ const Home = () => {
           delayChildren={0.5}
           threshold={0.2}
         >
-          <EmailForm formspreeEndpoint="https://formspree.io/f/xgvyrjrn" />
+          <EmailForm formspreeEndpoint="https://mail.api.lindocode.com/contact" />
         </AnimatedSection>
       </div>
     </FullWidthLayout>
