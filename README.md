@@ -13,7 +13,7 @@
 
 ---
 
-![Home](https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/hub2-1.webp)
+![Home](https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/portfolio.webp)
 
 ## 🖼️ Preview
 
@@ -59,26 +59,6 @@ It emphasizes **clarity, motion, and usability** without compromising performanc
 - Smooth motion transitions
 - Half-pill hero image reveal
 - Clean typography and spacing
-
----
-
-## 🖼️ Preview
-
-### 🏠 Hero Section
-
-![Hero Preview](./public/previews/hero.png)
-
-### 📊 Open Source Activity
-
-![GitHub Activity](./public/previews/github.png)
-
-### 🧩 Projects Showcase
-
-![Projects](./public/previews/projects.png)
-
-### 💬 Testimonials
-
-![Testimonials](./public/previews/testimonials.png)
 
 ---
 
