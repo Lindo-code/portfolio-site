@@ -75,9 +75,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <Link href="https://lindocode.com/terms#minimal">
+                <a href="https://lindocode.com/terms#minimal">
                   Terms & Conditions
-                </Link>
+                </a>
               </li>
               {/* <li> */}
               {/*   <Link href="/attributes">Image Attributes</Link> */}
@@ -92,9 +92,9 @@ export default function Footer() {
                 <a href="mailto:lindo@lindocode.com">lindo@lindocode.com</a>
               </li>
               <li>
-                <Link href="https://lindocode.com/contact#minimal">
+                <a href="https://lindocode.com/contact#minimal">
                   Start a project
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
