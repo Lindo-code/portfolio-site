@@ -347,6 +347,15 @@
   flex-wrap: wrap;
   gap: 0.65rem;
 }
+.skills-panel-card__tags span:nth-child(odd) {
+  background: #b27b32;
+  color: #fff;
+}
+
+.skills-panel-card__tags span:nth-child(even) {
+  background: #0e0e0e;
+  color: #fff;
+}
 
 .skills-panel-card__tags span {
   padding: 0.5rem 0.8rem;

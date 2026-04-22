@@ -11,6 +11,14 @@ const Hero = () => {
   const viewDemo = () => {
     window.open("https://github.com/Lindo-code", "_blank");
   };
+  const heroTags = [
+    "Frontend",
+    "Backend",
+    "Mobile Apps",
+    "UI Systems",
+    "APIs",
+    "Performance",
+  ];
 
   return (
     <section className="hero">
@@ -58,14 +66,10 @@ const Hero = () => {
               </div>
 
               <div className="hero-tags">
-                <span>Frontend</span>
-                <span>Backend</span>
-                <span>Mobile Apps</span>
-                <span>UI Systems</span>
-                <span>APIs</span>
-                <span>Performance</span>
+                {heroTags.map((tag) => (
+                  <span key={tag}>{tag}</span>
+                ))}
               </div>
-
               <div className="hero-metrics">
                 <div className="hero-metric">
                   <strong>Web</strong>
@@ -75,9 +79,12 @@ const Hero = () => {
                   </p>
                 </div>
 
-                <div className="hero-metric">
-                  <strong>Mobile</strong>
-                  <p>
+                <div
+                  className="hero-metric"
+                  style={{ backgroundColor: "#b27b32", color: "black" }}
+                >
+                  <strong style={{ color: "black" }}>Mobile</strong>
+                  <p style={{ color: "#2E3C4F" }}>
                     Cross-platform experiences that stay clean, fast, and
                     usable.
                   </p>
