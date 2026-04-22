@@ -145,7 +145,7 @@ const HorizontalScroll = ({ cards = [] }) => {
                     {card.link && (
                       <div className="hover-overlay">
                         <div className="half-circle">
-                          <span>View Project</span>
+                          <span>{card["card-badge"]}</span>
                         </div>
                       </div>
                     )}

@@ -239,7 +239,7 @@ const Home = () => {
           </Suspense>
         </section>
 
-        <section id="projects">
+        <section id="projects-section">
           <Suspense fallback={null}>
             <HorizontalScrollingCards
               cards={cards[0]}

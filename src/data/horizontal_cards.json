@@ -7,7 +7,8 @@
       "backgroundColor": "#D62F4D",
       "backgroundImg": "",
       "link": "https://lindocode.com/projects/web-apps#minimal",
-      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/vario-2.webp"
+      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/vario-2.webp",
+      "card-badge": "Web Apps"
     },
     {
       "title": "Data Insights",
@@ -16,7 +17,8 @@
       "backgroundColor": "black",
       "backgroundImg": "",
       "link": "https://lindocode.com/projects/web-games#minimal",
-      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/conference-4.webp"
+      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/conference-4.webp",
+      "card-badge": "Web Games"
     },
     {
       "title": "Creative Design",
@@ -25,7 +27,8 @@
       "backgroundColor": "#D62F4D",
       "backgroundImg": "",
       "link": "https://lindocode.com/projects/mobile-apps#minimal",
-      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/jambuddy-2.webp"
+      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/jambuddy-2.webp",
+      "card-badge": "Mobile Apps"
     }
   ],
   [
