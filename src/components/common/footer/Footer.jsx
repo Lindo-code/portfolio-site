@@ -55,9 +55,11 @@ export default function Footer() {
               <li>
                 <a href="https://lindocode.com/digitalhub">Digital Hub</a>
               </li>
-              {/* <li> */}
-              {/*   <Link href="/projects">Featured Projects</Link> */}
-              {/* </li> */}
+              <li>
+                <Link href="https://lindocode.com/projects#minimal">
+                  Featured Projects
+                </Link>
+              </li>
               {/* <li> */}
               {/*   <Link href="/contact">Contact</Link> */}
               {/* </li> */}
@@ -68,13 +70,15 @@ export default function Footer() {
             <h4>Resources</h4>
             <ul>
               <li>
-                <a href="https://lindocode.com/privacy">
+                <a href="https://lindocode.com/privacy#minimal">
                   Privacy & POPIA Policy
                 </a>
               </li>
-              {/* <li> */}
-              {/*   <Link href="/terms">Terms & Conditions</Link> */}
-              {/* </li> */}
+              <li>
+                <Link href="https://lindocode.com/terms#minimal">
+                  Terms & Conditions
+                </Link>
+              </li>
               {/* <li> */}
               {/*   <Link href="/attributes">Image Attributes</Link> */}
               {/* </li> */}
@@ -87,9 +91,11 @@ export default function Footer() {
               <li>
                 <a href="mailto:lindo@lindocode.com">lindo@lindocode.com</a>
               </li>
-              {/* <li> */}
-              {/*   <Link href="/contact">Start a project</Link> */}
-              {/* </li> */}
+              <li>
+                <Link href="https://lindocode.com/contact#minimal">
+                  Start a project
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
