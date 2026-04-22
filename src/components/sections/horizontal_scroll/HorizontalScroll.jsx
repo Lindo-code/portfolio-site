@@ -83,11 +83,16 @@ const HorizontalScroll = ({ cards = [] }) => {
       <section id="sectionPin">
         <div className="pin-wrap" ref={pinWrapRef}>
           <div className="stack-intro">
-            <span className="stack-intro-kicker">Featured Work</span>
+            <span
+              className="stack-intro-kicker"
+              style={{ backgroundColor: "#B27B32" }}
+            >
+              Featured Work
+            </span>
             <h2 className="stack-intro-title">Built with intention.</h2>
             <p className="stack-intro-text">
-              A closer look at selected work, design thinking, and product
-              direction across web and mobile.
+              A showcase in design thinking, and product approach across web and
+              mobile.
             </p>
           </div>
 
@@ -115,46 +120,52 @@ const HorizontalScroll = ({ cards = [] }) => {
                     )}
                   </div>
                 </div>
-
-                <div
-                  className="card-image-container"
-                  style={{
-                    backgroundImage: `linear-gradient(
+                <a href={card.link} rel="noopener noreferrer">
+                  <div
+                    className="card-image-container"
+                    style={{
+                      backgroundImage: `linear-gradient(
                       180deg,
                       rgba(0,0,0,0.08),
                       rgba(0,0,0,0.26)
                     ), url(${convert(card.backgroundImg || card.image)})`,
-                    backgroundColor: card.backgroundColor || "#161616",
-                  }}
-                  aria-label={card.title}
-                >
-                  <div className="card-image-overlay">
-                    <div className="card-image-copy">
-                      {card.mediaTitle && <strong>{card.mediaTitle}</strong>}
-                      {card.mediaSubtitle && <span>{card.mediaSubtitle}</span>}
+                      backgroundColor: card.backgroundColor || "#161616",
+                    }}
+                    aria-label={card.title}
+                  >
+                    <div className="card-image-overlay">
+                      <div className="card-image-copy">
+                        {card.mediaTitle && <strong>{card.mediaTitle}</strong>}
+                        {card.mediaSubtitle && (
+                          <span>{card.mediaSubtitle}</span>
+                        )}
+                      </div>
                     </div>
-                  </div>
 
-                  {card.link && (
-                    <div className="hover-overlay">
-                      <a
-                        href={card.link}
-                        className="half-circle"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <span>View Project</span>
-                      </a>
-                    </div>
-                  )}
-                </div>
+                    {card.link && (
+                      <div className="hover-overlay">
+                        <div className="half-circle">
+                          <span>{card["card-badge"]}</span>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </a>{" "}
               </div>
             </article>
           ))}
 
           <div className="stack-outro">
-            <span className="stack-outro-kicker">More</span>
-            <h3 className="stack-outro-title">More thoughtful work ahead.</h3>
+            <a href="https://lindocode.com/projects#minimal">
+              {" "}
+              <span
+                className="stack-outro-kicker"
+                style={{ backgroundColor: "#B47C2E" }}
+              >
+                Click To View More
+              </span>
+            </a>
+            <h3 className="stack-outro-title">Thoughtful work ahead.</h3>
           </div>
         </div>
       </section>
