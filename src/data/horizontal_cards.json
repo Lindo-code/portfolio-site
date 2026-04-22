@@ -6,7 +6,7 @@
       "description": "Smart, forward-thinking tools to solve real-world challenges.",
       "backgroundColor": "#D62F4D",
       "backgroundImg": "",
-      "link": "https://lindocode.com/projects/web-apps#minimal",
+      "link": "https://lindocode.com/projects/web-apps?theme=minimal-black",
       "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/vario-2.webp",
       "card-badge": "Web Apps"
     },
@@ -16,7 +16,7 @@
       "description": "Storing complex data for clear, strategic decisions, or easy access.",
       "backgroundColor": "black",
       "backgroundImg": "",
-      "link": "https://lindocode.com/projects/web-games#minimal",
+      "link": "https://lindocode.com/projects/web-games?theme=minimal-black",
       "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/conference-4.webp",
       "card-badge": "Web Games"
     },
@@ -26,7 +26,7 @@
       "description": "Intuitive, elegant interfaces that turn ideas into experiences.",
       "backgroundColor": "#D62F4D",
       "backgroundImg": "",
-      "link": "https://lindocode.com/projects/mobile-apps#minimal",
+      "link": "https://lindocode.com/projects/mobile-apps?theme=minimal-black",
       "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/jambuddy-2.webp",
       "card-badge": "Mobile Apps"
     }

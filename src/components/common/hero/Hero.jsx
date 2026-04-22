@@ -34,7 +34,7 @@ const Hero = () => {
 
             <h1 className="hero-title">
               Hey, I’m <span>Lindo</span>.
-              <br />I build digital products.
+              <br />A builder of digital products.
             </h1>
 
             <p className="hero-subtitle">
