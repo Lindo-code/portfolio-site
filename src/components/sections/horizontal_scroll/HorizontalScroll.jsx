@@ -156,7 +156,7 @@ const HorizontalScroll = ({ cards = [] }) => {
           ))}
 
           <div className="stack-outro">
-            <a href="https://lindocode.com/projects#minimal">
+            <a href="https://lindocode.com/projects?theme=minimal-black">
               {" "}
               <span
                 className="stack-outro-kicker"

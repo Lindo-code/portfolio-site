@@ -56,7 +56,7 @@ export default function Footer() {
                 <a href="https://lindocode.com/digitalhub">Digital Hub</a>
               </li>
               <li>
-                <Link href="https://lindocode.com/projects#minimal">
+                <Link href="https://lindocode.com/projects?theme=minimal-black">
                   Featured Projects
                 </Link>
               </li>
