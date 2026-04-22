@@ -101,7 +101,10 @@ export default function SkillsShowcase({ skills = defaultSkills }) {
                 {skills.length}
               </strong>
             </div>
-            <div className="skills-stat-card">
+            <div
+              className="skills-stat-card"
+              style={{ backgroundColor: "#0E0E0E", border: "none" }}
+            >
               <span className="skills-stat-card__label">Average Strength</span>
               <strong className="skills-stat-card__value">
                 {averageLevel}%

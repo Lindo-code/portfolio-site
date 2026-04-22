@@ -12,14 +12,17 @@ export default function VideoShowcase({
     <section className="video-showcase">
       <div className="container">
         <div className="video-showcase-shell">
-          {/* VIDEO SIDE */}
           <div className="video-showcase-media">
             <LazyVideo videoSrc={videoSrc} posterSrc={posterSrc} />
           </div>
 
-          {/* CONTENT SIDE */}
           <div className="video-showcase-content">
-            <span className="video-kicker">My Work</span>
+            <span
+              className="video-kicker"
+              style={{ backgroundColor: "#B27B32" }}
+            >
+              My Work
+            </span>
 
             <h2 className="video-title">{title}</h2>
 

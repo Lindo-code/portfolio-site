@@ -179,19 +179,18 @@ const HorizontalScroll = ({ cards = [] }) => {
         }}
       >
         {" "}
-        <div style={{ paddingBottom: "5em" }}>
+        <div style={{ paddingBottom: "8em" }}>
           {" "}
           <DownArrow color={"red"} />{" "}
         </div>
         <div className="">
           <span className="testimonial-section__eyebrow">Testimonials</span>
           <h2 className="testimonial-section__title">
-            What people say about the work.
+            What people say about my work.
           </h2>
-          <p className="">
-            A scrolling set of client and collaborator feedback, redesigned to
-            feel more editorial, more premium, and more in line with the rest of
-            the site.
+          <p style={{ color: "#2E3C4F" }}>
+            A collection of insights and feedback from clients, collaborators,
+            and teams I’ve worked with.{" "}
           </p>{" "}
           <hr
             style={{

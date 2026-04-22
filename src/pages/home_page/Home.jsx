@@ -220,7 +220,7 @@ const Home = () => {
               <div>
                 <span className="oss-kicker">Work & Reviews</span>
                 <h2 className="oss-title">Real work, not just projects.</h2>
-                <p className="oss-text">
+                <p className="oss-text" style={{ color: "#2E3C4F" }}>
                   A quick snapshot of my activity across GitHub repositories,
                   reviews, and contributions that reflect actual development
                   work.
@@ -260,7 +260,7 @@ const Home = () => {
         </section>
 
         <section className="home-email-intro">
-          <h2>Send Email</h2>
+          <h2>Drop me a message</h2>
           <DownArrow />
         </section>
 
