@@ -204,12 +204,12 @@
   font-size: 0.88rem;
 }
 .hero-tags span:nth-child(odd) {
-  background: #0e0e0e;
+  background: #b27b32;
   color: #fff;
 }
 
 .hero-tags span:nth-child(even) {
-  background: #0e0e0e;
+  background: #b27b32;
   color: #fff;
 }
 

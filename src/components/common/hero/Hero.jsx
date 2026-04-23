@@ -79,12 +79,9 @@ const Hero = () => {
                   </p>
                 </div>
 
-                <div
-                  className="hero-metric"
-                  style={{ backgroundColor: "#b27b32", color: "black" }}
-                >
-                  <strong style={{ color: "black" }}>Mobile</strong>
-                  <p style={{ color: "#2E3C4F" }}>
+                <div className="hero-metric">
+                  <strong>Mobile</strong>
+                  <p>
                     Cross-platform experiences that stay clean, fast, and
                     usable.
                   </p>
