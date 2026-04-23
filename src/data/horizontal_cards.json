@@ -1,33 +1,33 @@
 [
   [
     {
-      "title": "Innovative Solutions",
-      "semiTitle": "Real-world Impact",
-      "description": "Smart, forward-thinking tools to solve real-world challenges.",
+      "title": "Web Applications",
+      "semiTitle": "Scalable & Modern",
+      "description": "Full-stack web apps built for performance, usability, and real-world impact.",
       "backgroundColor": "#D62F4D",
       "backgroundImg": "",
       "link": "https://lindocode.com/projects/web-apps?theme=minimal-black",
-      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/vario-2.webp",
+      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/portfolio/mockup10.webp",
       "card-badge": "Web Apps"
     },
     {
-      "title": "Data Insights",
-      "semiTitle": "Clarity From Complexity",
-      "description": "Storing complex data for clear, strategic decisions, or easy access.",
+      "title": "Web Games",
+      "semiTitle": "Interactive Experiences",
+      "description": "Browser-based games combining performance, creativity, and engaging gameplay.",
       "backgroundColor": "black",
       "backgroundImg": "",
       "link": "https://lindocode.com/projects/web-games?theme=minimal-black",
-      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/conference-4.webp",
+      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/portfolio/mockup7.webp",
       "card-badge": "Web Games"
     },
     {
-      "title": "Creative Design",
-      "semiTitle": "Where Aesthetics Meet Usability",
-      "description": "Intuitive, elegant interfaces that turn ideas into experiences.",
+      "title": "Mobile Applications",
+      "semiTitle": "Built for Real Use",
+      "description": "Cross-platform mobile apps designed for seamless performance and intuitive user experience.",
       "backgroundColor": "#D62F4D",
       "backgroundImg": "",
       "link": "https://lindocode.com/projects/mobile-apps?theme=minimal-black",
-      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/cards/mockups/horizontal-cards/jambuddy-2.webp",
+      "image": "https://dawn-unit-97b0.sdrowvieli1.workers.dev/creativehub/images/portfolio/mockup14.webp",
       "card-badge": "Mobile Apps"
     }
   ],

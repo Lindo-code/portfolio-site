@@ -124,11 +124,7 @@ const HorizontalScroll = ({ cards = [] }) => {
                   <div
                     className="card-image-container"
                     style={{
-                      backgroundImage: `linear-gradient(
-                      180deg,
-                      rgba(0,0,0,0.08),
-                      rgba(0,0,0,0.26)
-                    ), url(${convert(card.backgroundImg || card.image)})`,
+                      backgroundImage: ` url(${convert(card.backgroundImg || card.image)})`,
                       backgroundColor: card.backgroundColor || "#161616",
                     }}
                     aria-label={card.title}
@@ -144,7 +140,11 @@ const HorizontalScroll = ({ cards = [] }) => {
 
                     {card.link && (
                       <div className="hover-overlay">
-                        <div className="half-circle">
+                        <div
+                          className="half-circle"
+                          style={{ display: "flex", flexDirection: "column" }}
+                        >
+                          <span>View</span>
                           <span>{card["card-badge"]}</span>
                         </div>
                       </div>

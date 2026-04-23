@@ -10,8 +10,8 @@ export default function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer-top">
-          <Link
-            href="/"
+          <a
+            href="https://lindocode.com"
             className="footer-brand"
             aria-label="Lindocode Digital Home"
           >
@@ -45,21 +45,25 @@ export default function Footer() {
                 clarity, and dependable digital experiences.
               </p>
             </div>
-          </Link>
+          </a>
         </div>
 
         <div className="footer-grid">
           <div className="footer-section">
             <h4>Quick Links</h4>
             <ul>
+              {" "}
+              <li>
+                <a href="https://lindocode.com/projects?theme=minimal-black">
+                  Featured Projects
+                </a>
+              </li>
+              <li>
+                <a href="https://lindocode.com">Lindocode Digital</a>
+              </li>
               <li>
                 <a href="https://lindocode.com/digitalhub">Digital Hub</a>
-              </li>
-              <li>
-                <Link href="https://lindocode.com/projects?theme=minimal-black">
-                  Featured Projects
-                </Link>
-              </li>
+              </li>{" "}
               {/* <li> */}
               {/*   <Link href="/contact">Contact</Link> */}
               {/* </li> */}
@@ -108,7 +112,7 @@ export default function Footer() {
           </div>
 
           <div className="footer-bottom-socials">
-            <Link
+            <a
               href="https://www.linkedin.com/in/lindo-matabane-8939aa229/"
               target="_blank"
               rel="noopener noreferrer"
@@ -116,9 +120,9 @@ export default function Footer() {
               aria-label="LinkedIn"
             >
               <FiLinkedin />
-            </Link>
+            </a>
 
-            <Link
+            <a
               href="https://github.com/Lindo-code"
               target="_blank"
               rel="noopener noreferrer"
@@ -126,7 +130,7 @@ export default function Footer() {
               aria-label="GitHub"
             >
               <FiGithub />
-            </Link>
+            </a>
           </div>
         </div>
       </div>
