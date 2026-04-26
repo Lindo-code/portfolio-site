@@ -10,11 +10,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer-top">
-          <a
-            href="https://lindocode.com"
-            className="footer-brand"
-            aria-label="Lindocode Digital Home"
-          >
+          <div className="footer-brand">
             <div className="footer-brand-mark">
               <Logo
                 size="medium"
@@ -45,7 +41,7 @@ export default function Footer() {
                 clarity, and dependable digital experiences.
               </p>
             </div>
-          </a>
+          </div>
         </div>
 
         <div className="footer-grid">
@@ -63,7 +59,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="https://lindocode.com/digitalhub">Digital Hub</a>
-              </li>{" "}
+              </li>
               {/* <li> */}
               {/*   <Link href="/contact">Contact</Link> */}
               {/* </li> */}
@@ -74,12 +70,12 @@ export default function Footer() {
             <h4>Resources</h4>
             <ul>
               <li>
-                <a href="https://lindocode.com/privacy#minimal">
+                <a href="https://lindocode.com/privacy?theme=minimal-black">
                   Privacy & POPIA Policy
                 </a>
               </li>
               <li>
-                <a href="https://lindocode.com/terms#minimal">
+                <a href="https://lindocode.com/terms?theme=minimal-black">
                   Terms & Conditions
                 </a>
               </li>
@@ -96,7 +92,7 @@ export default function Footer() {
                 <a href="mailto:lindo@lindocode.com">lindo@lindocode.com</a>
               </li>
               <li>
-                <a href="https://lindocode.com/contact#minimal">
+                <a href="https://lindocode.com/contact?theme=minimal-black">
                   Start a project
                 </a>
               </li>

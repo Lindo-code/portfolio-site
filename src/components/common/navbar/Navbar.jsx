@@ -46,20 +46,25 @@ const Navbar = () => {
           </button>
 
           <nav className={`navbar-nav ${mobileMenuOpen ? "active" : ""}`}>
-            <NavLink to="/" className="nav-link" onClick={closeMenu} end>
+            {/* <NavLink to="/" className="nav-link" onClick={closeMenu} end> */}
+            {/*   Home */}
+            {/* </NavLink> */}
+            {/**/}
+            {/* <NavLink to="/about" className="nav-link" onClick={closeMenu}> */}
+            {/*   About */}
+            {/* </NavLink> */}
+            {/**/}
+            {/* <NavLink to="/projects" className="nav-link" onClick={closeMenu}> */}
+            {/*   Projects */}
+            {/* </NavLink> */}{" "}
+            <a href="#" className="nav-link" onClick={closeMenu}>
               Home
-            </NavLink>
-
-            <NavLink to="/about" className="nav-link" onClick={closeMenu}>
-              About
-            </NavLink>
-
-            <NavLink to="/projects" className="nav-link" onClick={closeMenu}>
+            </a>
+            <a href="#sectionPin" className="nav-link" onClick={closeMenu}>
               Projects
-            </NavLink>
-
+            </a>
             <a
-              href="#contact_form"
+              href="https://lindocode.com/contact?theme=minimal-black"
               className="nav-link nav-link-contact"
               onClick={closeMenu}
             >
