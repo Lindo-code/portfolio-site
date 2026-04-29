@@ -13,7 +13,7 @@
   min-height: clamp(620px, 88vh, 920px);
   display: flex;
   align-items: center;
-  padding: clamp(4rem, 7vw, 7rem) 0;
+  padding: clamp(2rem, 4vw, 4rem) 0;
 }
 
 .hero-bg-glow {
@@ -276,7 +276,7 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding: 5rem 0 4rem;
+    padding: 2.5rem 0 4rem;
   }
 
   .hero-kicker {
@@ -311,7 +311,7 @@
 
 @media (max-width: 480px) {
   .hero {
-    padding: 4.5rem 0 3.5rem;
+    padding: 2.5rem 0 3.5rem;
   }
 
   .hero-kicker {
@@ -334,4 +334,61 @@
   .hero-metric p {
     font-size: 0.9rem;
   }
+}
+.hero-social-block {
+  padding: 1px 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 8px;
+}
+
+.social-link {
+  width: 45px;
+  height: 45px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.3s ease;
+}
+
+.social-link.linkedin {
+  color: #6eb3d9;
+}
+
+.social-link.github {
+  color: #8f8a8a;
+}
+
+.social-link.linkedin:hover {
+  color: #0077b5;
+  transform: translateY(-3px);
+}
+
+.social-link.github:hover {
+  color: #848282;
+  transform: translateY(-3px);
+}
+.social-link.whatsapp {
+  color: #7bdf9e;
+}
+
+.social-link.whatsapp:hover {
+  color: #25d366;
+  transform: translateY(-3px);
+}
+
+.social-icon {
+  width: 30px !important;
+  height: 30px !important;
 }
