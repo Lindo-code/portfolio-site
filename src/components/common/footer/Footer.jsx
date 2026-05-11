@@ -58,6 +58,9 @@ export default function Footer() {
                 <a href="https://lindocode.com">Lindocode Digital</a>
               </li>
               <li>
+                <a href="https://lazyreader.lindocode.com">LazyReader</a>
+              </li>
+              <li>
                 <a href="https://lindocode.com/digitalhub">Digital Hub</a>
               </li>
               {/* <li> */}
