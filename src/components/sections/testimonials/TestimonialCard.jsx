@@ -58,7 +58,12 @@ export default function TestimonialCard({
       )}
 
       <div className="testimonial-card__footer">
-        <img src={image} alt={name} className="testimonial-card__avatar" />
+        <div
+          className="testimonial-card__avatar"
+          style={{ backgroundImage: `url(${image})` }}
+          role="img"
+          aria-label={name}
+        />
 
         <div className="testimonial-card__person">
           <strong>{name}</strong>
