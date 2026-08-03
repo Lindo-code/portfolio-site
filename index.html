@@ -41,7 +41,7 @@
     <meta property="og:url" content="https://portfolio.lindocode.com/" />
     <meta
       property="og:image"
-      content=https://portfolio.lindocode.com/og-image.png"
+      content="https://portfolio.lindocode.com/og-image.png"
     />
     <meta
       property="og:image:secure_url"
@@ -76,7 +76,37 @@
   </head>
 
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Static fallback for crawlers and no-JS visitors; React replaces this on mount. -->
+      <header>
+        <h1>Lindo Matabane — Full-Stack Web &amp; Mobile Developer</h1>
+        <p>
+          South Africa-based developer building modern web apps, mobile apps,
+          automation systems, and APIs through
+          <a href="https://lindocode.com">Lindocode Digital</a>, trading as
+          Lazy Appz.
+        </p>
+      </header>
+      <main>
+        <p>
+          Selected products:
+          <a href="https://lazyreader.lindocode.com">LazyReader</a>, a
+          cloud-based e-reader on Google Play;
+          <a href="https://lazystore.lindocode.com">LazyStore</a>, its book
+          catalog;
+          <a href="https://lazyauthor.lindocode.com">LazyAuthor</a>, a
+          browser-based editor for interactive fiction and EPUB ebooks; and
+          <a href="https://lindocode.com/digitalhub">Digital Hub</a>, a
+          link-safety and preview tool.
+        </p>
+        <p>
+          More work at
+          <a href="https://lindocode.com/projects">lindocode.com/projects</a>
+          or get in touch via
+          <a href="https://lindocode.com/contact">lindocode.com/contact</a>.
+        </p>
+      </main>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
